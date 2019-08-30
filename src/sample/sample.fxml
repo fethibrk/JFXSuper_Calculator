@@ -1,0 +1,206 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import com.jfoenix.controls.JFXButton?>
+<AnchorPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <VBox>
+        <JFXTextField fx:id="screen1">
+            <font>
+                <Font name="dejaVu bold" size="18"/>
+            </font>
+        </JFXTextField>
+        <JFXTextField fx:id="screen2">
+            <font>
+                <Font name="dejaVu bold" size="18"/>
+            </font>
+        </JFXTextField>
+
+        <HBox spacing="10">
+            <JFXButton text="1" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="2" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="3" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="⌫" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="shift" onAction="#shift" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="4" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="5" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="6" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="*" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="sin" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="7" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="8" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="9" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="/" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="cos" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="+/-" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="0" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="." onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="-" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="tan" onAction="#handleButtonPressAction">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+        </HBox>
+
+        <HBox spacing="10">
+            <JFXButton text="1" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="2" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="3" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+            <JFXButton text="X" onAction="#handleButtonPressAction" prefWidth="92">
+                <font>
+                    <Font name="dejaVu bold" size="18"/>
+                </font>
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="1" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="2" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="3" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="X" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="1" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="2" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="3" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="X" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+        </HBox>
+
+        <HBox>
+            <JFXButton text="1" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="2" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="3" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+            <JFXButton text="X" onAction="#handleButtonPressAction">
+
+            </JFXButton>
+        </HBox>
+    </VBox>
+</AnchorPane>

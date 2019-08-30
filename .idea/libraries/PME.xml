@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="PME">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/libs/PME.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/libs/PME.jar!/com/eagle" />
+    </SOURCES>
+  </library>
+</component>
